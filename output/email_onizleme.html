@@ -1,0 +1,212 @@
+<html><body style="font-family:Arial,sans-serif">
+<h2>Kredi Kartı Risk İzleme - Günlük Rapor</h2><p><b>2025-06-30</b> itibarıyla limit kullanımı %80 ve üzeri olan <b>135</b> kart var; bunların <b>55</b> tanesi kritik/limit aşımı.</p>
+<h3>En yüksek riskli 10 kart</h3><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>card_id</th>
+      <th>customer_id</th>
+      <th>ad_soyad</th>
+      <th>segment</th>
+      <th>limit_tl</th>
+      <th>guncel_borc_tl</th>
+      <th>kullanim_yuzde</th>
+      <th>kalan_limit_tl</th>
+      <th>risk_seviyesi</th>
+      <th>segment_ici_sira</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1487</td>
+      <td>1487</td>
+      <td>Deniz Polat</td>
+      <td>Bireysel</td>
+      <td>50000.0</td>
+      <td>54562.74</td>
+      <td>109.1</td>
+      <td>-4562.74</td>
+      <td>LIMIT ASIMI</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1174</td>
+      <td>1174</td>
+      <td>Zeynep Koç</td>
+      <td>Ticari</td>
+      <td>50000.0</td>
+      <td>53748.46</td>
+      <td>107.5</td>
+      <td>-3748.46</td>
+      <td>LIMIT ASIMI</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>477</td>
+      <td>477</td>
+      <td>Cem Özdemir</td>
+      <td>Bireysel</td>
+      <td>25000.0</td>
+      <td>26820.77</td>
+      <td>107.3</td>
+      <td>-1820.77</td>
+      <td>LIMIT ASIMI</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>1560</td>
+      <td>1560</td>
+      <td>Ahmet Özkan</td>
+      <td>Bireysel</td>
+      <td>50000.0</td>
+      <td>52240.15</td>
+      <td>104.5</td>
+      <td>-2240.15</td>
+      <td>LIMIT ASIMI</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>1871</td>
+      <td>1871</td>
+      <td>Mustafa Yıldız</td>
+      <td>Bireysel</td>
+      <td>50000.0</td>
+      <td>51559.14</td>
+      <td>103.1</td>
+      <td>-1559.14</td>
+      <td>LIMIT ASIMI</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>250</td>
+      <td>250</td>
+      <td>Kerem Özdemir</td>
+      <td>Bireysel</td>
+      <td>10000.0</td>
+      <td>10309.71</td>
+      <td>103.1</td>
+      <td>-309.71</td>
+      <td>LIMIT ASIMI</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>587</td>
+      <td>587</td>
+      <td>Ali Şahin</td>
+      <td>Bireysel</td>
+      <td>25000.0</td>
+      <td>25622.91</td>
+      <td>102.5</td>
+      <td>-622.91</td>
+      <td>LIMIT ASIMI</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>1234</td>
+      <td>1234</td>
+      <td>Zeynep Çetin</td>
+      <td>Bireysel</td>
+      <td>50000.0</td>
+      <td>51143.82</td>
+      <td>102.3</td>
+      <td>-1143.82</td>
+      <td>LIMIT ASIMI</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>234</td>
+      <td>234</td>
+      <td>Fatma Kılıç</td>
+      <td>Ticari</td>
+      <td>25000.0</td>
+      <td>25519.28</td>
+      <td>102.1</td>
+      <td>-519.28</td>
+      <td>LIMIT ASIMI</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>1872</td>
+      <td>1872</td>
+      <td>Kerem Özdemir</td>
+      <td>Bireysel</td>
+      <td>50000.0</td>
+      <td>50458.32</td>
+      <td>100.9</td>
+      <td>-458.32</td>
+      <td>LIMIT ASIMI</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table>
+<h3>Gecikme (DPD) dağılımı</h3><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>dpd_dilimi</th>
+      <th>kart_sayisi</th>
+      <th>geciken_ekstre</th>
+      <th>toplam_eksik_odeme_tl</th>
+      <th>pay_yuzde</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1) 1-29 gun</td>
+      <td>136</td>
+      <td>138</td>
+      <td>307064.61</td>
+      <td>29.8</td>
+    </tr>
+    <tr>
+      <td>2) 30-59 gun</td>
+      <td>130</td>
+      <td>132</td>
+      <td>279478.04</td>
+      <td>27.1</td>
+    </tr>
+    <tr>
+      <td>3) 60-89 gun</td>
+      <td>139</td>
+      <td>142</td>
+      <td>251008.67</td>
+      <td>24.3</td>
+    </tr>
+    <tr>
+      <td>4) 90+ gun</td>
+      <td>117</td>
+      <td>117</td>
+      <td>193839.09</td>
+      <td>18.8</td>
+    </tr>
+  </tbody>
+</table>
+<h3>Veri kalitesi kontrolleri</h3><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>kontrol</th>
+      <th>adet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mukerrer musteri (ad + kayit tarihi ayni)</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>Sehir bilgisi eksik musteri</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Limiti 0 veya negatif kart</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>Negatif tutarli islem</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Musterisi bulunmayan kart (orphan)</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p style="color:#888">Bu rapor sentetik veri ile üretilmiştir.</p></body></html>

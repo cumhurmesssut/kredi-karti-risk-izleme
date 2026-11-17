@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Ortam değişkenleri ve gizli bilgiler
+.env
+.env.*
+!.env.example
+
+# Veritabanı dosyaları
+*.db
+*.sqlite
+*.sqlite3
+
+# Çıktı dosyaları
+output/
+
+# Geçici dosyalar
+*.log
+.DS_Store
+Thumbs.db
